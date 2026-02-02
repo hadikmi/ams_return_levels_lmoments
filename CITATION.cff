@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "AMS Return Levels using L-moments (SSP245)"
+message: "If you use this code, please cite it."
+type: software
+authors:
+  - family-names: Karimi
+    given-names: Hadi
+version: 0.1.0
+date-released: 2026-02-02
+license: MIT
+repository-code: "https://github.com/hadikmi/ams_return_levels_lmoments"
