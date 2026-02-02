@@ -1,0 +1,22 @@
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# envs
+.venv/
+env/
+*.conda
+
+# outputs
+outputs/
+
+# data (keep structure, not the actual big files)
+data/raw/*
+data/obs/*
+!data/raw/.gitkeep
+!data/obs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

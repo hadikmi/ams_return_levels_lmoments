@@ -1,0 +1,13 @@
+name: ams-lmoments
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - pip
+  - pip:
+      - lmoments3
