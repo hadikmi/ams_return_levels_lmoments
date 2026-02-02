@@ -66,6 +66,21 @@ Create `LICENSE` (MIT is common). If you want MIT quickly:
 
 ---
 
+## Example data (included)
+
+Small example input files are provided in `data/examples/`.
+
+To run the pipeline:
+1. Copy the example files into the expected folders:
+   - `data/examples/HadGEM3_ssp245.txt`  -> `data/raw/`
+   - `data/examples/MPIesm2_ssp245.txt`  -> `data/raw/`
+   - `data/examples/NorESM2_ssp245.txt`  -> `data/raw/`
+   - `data/examples/GPM_Daily_obs.txt`   -> `data/obs/`
+2. Run:
+   ```bash
+   python scripts/run_ssp245_pipeline.py
+   ```
+
 ## 8) Test locally before Git
 ### Create the environment
 ```bash
