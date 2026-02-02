@@ -69,7 +69,8 @@ Create `LICENSE` (MIT is common). If you want MIT quickly:
 ## Example data (included)
 
 Small example input files are provided in `data/examples/`.
-Note: Results may differ from the full experiment because the included example datasets are small subsets of the original data.
+
+- Note: Results may differ from the full experiment because the included example datasets are small subsets of the original data.
 
 To run the pipeline:
 1. Copy the example files into the expected folders:
