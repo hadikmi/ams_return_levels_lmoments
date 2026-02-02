@@ -69,13 +69,14 @@ Create `LICENSE` (MIT is common). If you want MIT quickly:
 ## Example data (included)
 
 Small example input files are provided in `data/examples/`.
+Note: Results may differ from the full experiment because the included example datasets are small subsets of the original data.
 
 To run the pipeline:
 1. Copy the example files into the expected folders:
-   - `data/examples/HadGEM3_ssp245.txt`  -> `data/raw/`
-   - `data/examples/MPIesm2_ssp245.txt`  -> `data/raw/`
-   - `data/examples/NorESM2_ssp245.txt`  -> `data/raw/`
-   - `data/examples/GPM_Daily_obs.txt`   -> `data/obs/`
+   - `data/examples/example_HadGEM3_daily.txt`  -> `data/raw/`
+   - `data/examples/example_MPIesm2_daily.txt`  -> `data/raw/`
+   - `data/examples/example_NorESM2_daily.txt`  -> `data/raw/`
+   - `data/examples/example_GPM_obs_daily.txt`   -> `data/obs/`
 2. Run:
    ```bash
    python scripts/run_ssp245_pipeline.py
