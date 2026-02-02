@@ -9,13 +9,18 @@ env/
 *.conda
 
 # outputs
-outputs/
+/outputs/
 
-# data (keep structure, not the actual big files)
-data/raw/*
-data/obs/*
-!data/raw/.gitkeep
-!data/obs/.gitkeep
+/data/raw/*
+/data/obs/*
+!/data/raw/.gitkeep
+!/data/obs/.gitkeep
+
+
+# allow small public example datasets
+!/data/examples/
+!/data/examples/*
+
 
 # OS
 .DS_Store
